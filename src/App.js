@@ -28,7 +28,7 @@ const App = () => {
               <Sidebar userRole={userRole}>
                 <Routes>
                   <Route path="/" element={<Panel />} />
-                  <Route path="/espacios" element={<Espacios />} />
+                  <Route path="/espacios" element={<Espacios  />} />
                   <Route path='/acceso' element={<Acceso />} />
                   <Route path='/cliente' element={<Cliente />} />
                   <Route path='/cobro' element={<Cobro />} />
