@@ -1,0 +1,45 @@
+/* sidebar.css */
+.container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #5da7c9;
+    padding: 20px;
+  }
+  
+  .top_section {
+    height: 100px;
+    background-color: #3bb4a0;
+  }
+  
+  .link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #63c488;
+    padding: 10px;
+  }
+  
+  .link:hover {
+    background-color: #4bb390;
+  }
+  
+  .active {
+    font-weight: bold;
+  }
+  
+  .icon {
+    margin-right: 10px;
+  }
+  
+  .link_text {
+    font-size: 14px;
+  }
+  
+  main {
+    flex: 1;
+    padding: 20px;
+  }
+  

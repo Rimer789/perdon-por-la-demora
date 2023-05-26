@@ -40,13 +40,11 @@ main{
 }
 .link:hover{
   background:#ACC4D4;
-  color: #000;
+  color: #1bd66f;
   transition: all 0.5s;
 }
 .active{
   background: #ACC4D4;
-  color: #000;
+  color: #e71919;
 }
-.icon, .link_text{
-  font-size: 30px;
-}
+
