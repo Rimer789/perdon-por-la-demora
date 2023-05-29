@@ -28,7 +28,7 @@ const Panel = () => {
                     </tr>
                     <tr>
                         <td>{datos.total}</td>
-                        <td>{datos.disponible}</td>
+                        <td>{datos.libre}</td>
                         <td>{datos.ocupado}</td>
                         <td>{datos.reservado}</td>
                         <td>{datos.deshabilitado}</td>
