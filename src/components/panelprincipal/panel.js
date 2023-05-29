@@ -5,7 +5,7 @@ const Panel = () => {
     const [datos, setDatos] = useState([]);
     useEffect(() => {
         const obtenerDatos = async () => {
-          const resultado = await axios.get('http://localhost/proyectoParqueo/detalleParqueo.php');
+          const resultado = await axios.get('https://proyecto-parqueo.vercel.app/api/detalleParqueo.php');
           setDatos(resultado.data);
         };
         obtenerDatos();
@@ -28,7 +28,7 @@ const Panel = () => {
                     </tr>
                     <tr>
                         <td>{datos.total}</td>
-                        <td>{datos.libre}</td>
+                        <td>{datos.disponible}</td>
                         <td>{datos.ocupado}</td>
                         <td>{datos.reservado}</td>
                         <td>{datos.deshabilitado}</td>

@@ -15,7 +15,7 @@ const Login = ({ setUserRole }) => {
     };
 
     try {
-      const response = await fetch('http://localhost/proyectoParqueo/login.php', {
+      const response = await fetch('https://proyecto-parqueo.vercel.app/api/login.php', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -26,7 +26,7 @@ const Login = ({ setUserRole }) => {
         const result = await response.json();
         console.log('Inicio de sesión exitoso:', result);
         setUserRole(result.tipo);
-        navigate('/'); // Navigate to the desired route after successful login
+        navigate('/'); 
       } else {
         console.log('Inicio de sesión fallido');
       }
