@@ -77,7 +77,7 @@ const Espacios = () => {
   };
 
  useEffect(() => {
-  fetch('https://proyecto-parqueo.vercel.app/api/verEspacios.php')
+  fetch('https://proyecto-parqueo.vercel.app/api/detalleParqueo.php')
     .then(response => response.json())
     .then(data => {
       console.log(data);
