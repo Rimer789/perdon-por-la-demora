@@ -1,5 +1,5 @@
 body {
-  background-image: url("wilma.jpeg");
+  
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -20,11 +20,18 @@ h1 {
   overflow: hidden;
   position: relative;
 }
+@media (max-width: 768px) { /* Cambia el ancho máximo según tus necesidades */
+  .contenedor {
+    background-position: center center; /* Centra la imagen de fondo horizontal y verticalmente */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+  }
+}
+
 
 p {
   font-size: 40px;
   text-shadow: 
-    3px 3px 1px rgb(236, 12, 150),
+    3px 3px 1px rgb(68, 55, 63),
     5px 5px 2px rgb(201, 92, 211),
     8px 8px 3px rgb(235, 194, 228);
   color: white; /* Color de las letras */
