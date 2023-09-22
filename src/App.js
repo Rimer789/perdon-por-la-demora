@@ -9,7 +9,7 @@ const App = () => {
   const [backgroundImage, setBackgroundImage] = useState(vilmaImage);
 
   const handleYesClick = () => {
-    window.open('https://wa.me/59167566295?text=si%20iremos%20%3A)%20', '_blank');
+    window.open('https://wa.me/59167566295?text=si%20acepto%20%3A)%20', '_blank');
     setIsAccepted(true);
   };
 
