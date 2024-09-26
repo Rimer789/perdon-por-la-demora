@@ -57,7 +57,7 @@ const App = () => {
   return (
     <div className="contenedor" style={{ backgroundImage: `url(${backgroundImage})` }}>
       {isAccepted ? (
-        <h1>Ya lo sabía 😉 solo dime cuando 🙂</h1>
+        <h1>Ya lo sabía no abia de otra 😅 😉 solo dime cuando 🙂</h1>
       ) : (
         <>
           <br />
