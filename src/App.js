@@ -10,7 +10,7 @@ const App = () => {
 
   const handleYesClick = () => {
     // Abrir enlace de WhatsApp
-    window.open('https://wa.me/59167566295?text=si%20vamos%20%3A)%20', '_blank');
+    window.open('https://wa.me/59167566295?text=si%20 cuando%20%3A)%20', '_blank');
     // Limpiar todo y mostrar mensaje "Ya lo sabía"
     setIsAccepted(true);
   };
@@ -62,7 +62,7 @@ const App = () => {
         <>
           <br />
           <br />
-          <h1>salimos a ver una peli pa el cine🍿🥤🎮</h1>
+          <h1>abra una aportunidad para conocernos 🙂</h1>
           <br />
           <br />
           <h1>aver dime que no😑</h1>
