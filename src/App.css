@@ -5,13 +5,7 @@ body {
   background-position: center;
 }
 
-h1 {
-  text-shadow: 
-    3px 3px 1px red,
-    5px 5px 2px yellow,
-    8px 8px 3px blue;
-  color: white; /* Color de las letras */
-}
+
 
 .contenedor {
   height: 100vh;
@@ -36,6 +30,47 @@ p {
     8px 8px 3px rgb(235, 194, 228);
   color: white; /* Color de las letras */
 }
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+h1 {
+  font-family: 'Great Vibes', cursive; /* Tipografía cursiva similar */
+  font-size: 80px; /* Tamaño grande del texto */
+  font-weight: normal;
+  text-align: center;
+  color: #ffffff; /* Color blanco para el texto */
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+  
+}
+
+/* Sombra y efecto 3D */
+h1::before {
+  content: 'Efectos de texto';
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: rgba(0, 0, 0, 0.2); /* Color sombra */
+  z-index: -1;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1); /* Efecto de sombra suave */
+}
+
+h1::after {
+  content: 'Efectos de texto';
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: rgba(0, 0, 0, 0.1); /* Sombra de fondo más suave */
+  z-index: -2;
+}
+
+/* Estilo para pantallas móviles */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px; /* Ajuste del tamaño para pantallas más pequeñas */
+  }
+}
+
 
 button {
   text-decoration: none;
@@ -44,7 +79,7 @@ button {
   font-weight: bold;
   font-size: 24px;
   color: #fff;
-  background-color: #ff4081;
+  background-color: #08729c;
   border: none;
   border-radius: 50px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
@@ -54,7 +89,7 @@ button {
 }
 
 button:hover {
-  background-color: #f50057;
+  background-color: #02304e;
 }
 
 .button:before {
